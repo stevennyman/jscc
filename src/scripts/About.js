@@ -68,7 +68,7 @@ requirejs(['Intermediary', 'DataStore', 'ScrollTo', 'AjaxLoader'], function(Inte
 		dataLoaderHandler = Intermediary.subscribe('dataloader', _onDataLoaderMessage),
 		sources = {
 			'/data/additional.json' : null,
-			'/data/caniuse2.json'   : null
+			'https://cdn.jsdelivr.net/gh/Fyrd/caniuse@master/data.json'   : null
 		};
 
 	// Try to load the compatibility data
